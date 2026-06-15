@@ -1,0 +1,658 @@
+{
+  "summary": {
+    "queries": 15,
+    "avg_n_papers": 30.0,
+    "avg_fetch_miss_s": 4.155,
+    "avg_fetch_hit_s": 0.029,
+    "avg_cache_speedup": 152.68,
+    "avg_gost_complete_before_pct": 66.673,
+    "avg_gost_complete_after_pct": 88.247,
+    "avg_silhouette_auto_k": 0.126,
+    "avg_auto_k": 3.133,
+    "avg_cluster_s": 1.186,
+    "avg_isolated_citation": 0.253,
+    "avg_components_citation": 9.133,
+    "avg_degree_citation": 3.159,
+    "avg_isolated_citation_coupling": 0.096,
+    "avg_components_citation_coupling": 4.0,
+    "avg_degree_citation_coupling": 12.697,
+    "avg_isolated_all": 0.009,
+    "avg_components_all": 1.333,
+    "avg_degree_all": 15.053,
+    "avg_repeat_full_s": 2.075,
+    "min_repeat_full_s": 1.799,
+    "max_repeat_full_s": 4.063
+  },
+  "per_query": [
+    {
+      "query": "transformer models attention",
+      "n_papers": 30,
+      "t_fetch_miss_s": 7.47,
+      "t_fetch_hit_s": 0.023,
+      "cache_speedup": 320.0,
+      "gost_complete_before_pct": 60.0,
+      "gost_complete_after_pct": 76.7,
+      "auto_k": 3,
+      "silhouette_auto_k": 0.1157,
+      "silhouette_curve": {
+        "2": 0.1112,
+        "3": 0.1157,
+        "4": 0.099,
+        "5": 0.0582,
+        "6": 0.0976,
+        "7": 0.0647,
+        "8": 0.0686
+      },
+      "t_cluster_s": 1.684,
+      "connectivity": {
+        "citation": {
+          "n_nodes": 30,
+          "isolated_frac": 0.167,
+          "components": 7,
+          "avg_degree": 2.67
+        },
+        "citation_coupling": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 1,
+          "avg_degree": 13.73
+        },
+        "citation_coupling_semantic": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 1,
+          "avg_degree": 15.53
+        }
+      },
+      "t_repeat_full_s": 4.063
+    },
+    {
+      "query": "graph neural networks",
+      "n_papers": 30,
+      "t_fetch_miss_s": 4.979,
+      "t_fetch_hit_s": 0.028,
+      "cache_speedup": 175.4,
+      "gost_complete_before_pct": 53.3,
+      "gost_complete_after_pct": 86.7,
+      "auto_k": 2,
+      "silhouette_auto_k": 0.0727,
+      "silhouette_curve": {
+        "2": 0.0727,
+        "3": 0.058,
+        "4": 0.0712,
+        "5": 0.0715,
+        "6": 0.0723,
+        "7": 0.0608,
+        "8": 0.0604
+      },
+      "t_cluster_s": 1.183,
+      "connectivity": {
+        "citation": {
+          "n_nodes": 30,
+          "isolated_frac": 0.2,
+          "components": 7,
+          "avg_degree": 2.6
+        },
+        "citation_coupling": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 1,
+          "avg_degree": 12.8
+        },
+        "citation_coupling_semantic": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 1,
+          "avg_degree": 14.4
+        }
+      },
+      "t_repeat_full_s": 2.005
+    },
+    {
+      "query": "semantic search information retrieval",
+      "n_papers": 30,
+      "t_fetch_miss_s": 3.841,
+      "t_fetch_hit_s": 0.021,
+      "cache_speedup": 183.4,
+      "gost_complete_before_pct": 56.7,
+      "gost_complete_after_pct": 86.7,
+      "auto_k": 7,
+      "silhouette_auto_k": 0.1381,
+      "silhouette_curve": {
+        "2": 0.0866,
+        "3": 0.092,
+        "4": 0.0765,
+        "5": 0.1158,
+        "6": 0.1183,
+        "7": 0.1381,
+        "8": 0.1275
+      },
+      "t_cluster_s": 1.222,
+      "connectivity": {
+        "citation": {
+          "n_nodes": 30,
+          "isolated_frac": 0.667,
+          "components": 23,
+          "avg_degree": 0.53
+        },
+        "citation_coupling": {
+          "n_nodes": 30,
+          "isolated_frac": 0.4,
+          "components": 14,
+          "avg_degree": 1.8
+        },
+        "citation_coupling_semantic": {
+          "n_nodes": 30,
+          "isolated_frac": 0.033,
+          "components": 2,
+          "avg_degree": 6.07
+        }
+      },
+      "t_repeat_full_s": 1.926
+    },
+    {
+      "query": "reinforcement learning robotics",
+      "n_papers": 30,
+      "t_fetch_miss_s": 2.766,
+      "t_fetch_hit_s": 0.051,
+      "cache_speedup": 54.3,
+      "gost_complete_before_pct": 60.0,
+      "gost_complete_after_pct": 86.7,
+      "auto_k": 3,
+      "silhouette_auto_k": 0.0678,
+      "silhouette_curve": {
+        "2": 0.067,
+        "3": 0.0678,
+        "4": 0.0616,
+        "5": 0.0525,
+        "6": 0.0496,
+        "7": 0.043,
+        "8": 0.0512
+      },
+      "t_cluster_s": 1.196,
+      "connectivity": {
+        "citation": {
+          "n_nodes": 30,
+          "isolated_frac": 0.167,
+          "components": 6,
+          "avg_degree": 2.47
+        },
+        "citation_coupling": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 1,
+          "avg_degree": 11.73
+        },
+        "citation_coupling_semantic": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 1,
+          "avg_degree": 13.93
+        }
+      },
+      "t_repeat_full_s": 1.882
+    },
+    {
+      "query": "convolutional neural networks image classification",
+      "n_papers": 30,
+      "t_fetch_miss_s": 3.764,
+      "t_fetch_hit_s": 0.028,
+      "cache_speedup": 132.9,
+      "gost_complete_before_pct": 53.3,
+      "gost_complete_after_pct": 96.7,
+      "auto_k": 3,
+      "silhouette_auto_k": 0.1134,
+      "silhouette_curve": {
+        "2": 0.1101,
+        "3": 0.1134,
+        "4": 0.0936,
+        "5": 0.1062,
+        "6": 0.1055,
+        "7": 0.0925,
+        "8": 0.0695
+      },
+      "t_cluster_s": 1.115,
+      "connectivity": {
+        "citation": {
+          "n_nodes": 30,
+          "isolated_frac": 0.067,
+          "components": 3,
+          "avg_degree": 2.8
+        },
+        "citation_coupling": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 1,
+          "avg_degree": 18.2
+        },
+        "citation_coupling_semantic": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 1,
+          "avg_degree": 19.8
+        }
+      },
+      "t_repeat_full_s": 1.941
+    },
+    {
+      "query": "knowledge graph embeddings",
+      "n_papers": 30,
+      "t_fetch_miss_s": 4.129,
+      "t_fetch_hit_s": 0.03,
+      "cache_speedup": 137.6,
+      "gost_complete_before_pct": 46.7,
+      "gost_complete_after_pct": 86.7,
+      "auto_k": 2,
+      "silhouette_auto_k": 0.282,
+      "silhouette_curve": {
+        "2": 0.282,
+        "3": 0.1237,
+        "4": 0.1037,
+        "5": 0.0918,
+        "6": 0.1016,
+        "7": 0.1299,
+        "8": 0.1362
+      },
+      "t_cluster_s": 1.115,
+      "connectivity": {
+        "citation": {
+          "n_nodes": 30,
+          "isolated_frac": 0.033,
+          "components": 2,
+          "avg_degree": 8.6
+        },
+        "citation_coupling": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 1,
+          "avg_degree": 22.2
+        },
+        "citation_coupling_semantic": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 1,
+          "avg_degree": 23.13
+        }
+      },
+      "t_repeat_full_s": 1.902
+    },
+    {
+      "query": "natural language processing sentiment analysis",
+      "n_papers": 30,
+      "t_fetch_miss_s": 3.39,
+      "t_fetch_hit_s": 0.027,
+      "cache_speedup": 127.7,
+      "gost_complete_before_pct": 70.0,
+      "gost_complete_after_pct": 86.7,
+      "auto_k": 3,
+      "silhouette_auto_k": 0.1202,
+      "silhouette_curve": {
+        "2": 0.1078,
+        "3": 0.1202,
+        "4": 0.0925,
+        "5": 0.0965,
+        "6": 0.0695,
+        "7": 0.0648,
+        "8": 0.0678
+      },
+      "t_cluster_s": 1.191,
+      "connectivity": {
+        "citation": {
+          "n_nodes": 30,
+          "isolated_frac": 0.6,
+          "components": 19,
+          "avg_degree": 0.73
+        },
+        "citation_coupling": {
+          "n_nodes": 30,
+          "isolated_frac": 0.3,
+          "components": 10,
+          "avg_degree": 3.73
+        },
+        "citation_coupling_semantic": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 2,
+          "avg_degree": 8.8
+        }
+      },
+      "t_repeat_full_s": 1.949
+    },
+    {
+      "query": "generative adversarial networks",
+      "n_papers": 30,
+      "t_fetch_miss_s": 3.421,
+      "t_fetch_hit_s": 0.027,
+      "cache_speedup": 128.2,
+      "gost_complete_before_pct": 40.0,
+      "gost_complete_after_pct": 56.7,
+      "auto_k": 2,
+      "silhouette_auto_k": 0.2482,
+      "silhouette_curve": {
+        "2": 0.2482,
+        "3": 0.1101,
+        "4": 0.0596,
+        "5": 0.053,
+        "6": 0.0634,
+        "7": 0.079,
+        "8": 0.0931
+      },
+      "t_cluster_s": 1.157,
+      "connectivity": {
+        "citation": {
+          "n_nodes": 30,
+          "isolated_frac": 0.033,
+          "components": 2,
+          "avg_degree": 4.73
+        },
+        "citation_coupling": {
+          "n_nodes": 30,
+          "isolated_frac": 0.033,
+          "components": 2,
+          "avg_degree": 15.6
+        },
+        "citation_coupling_semantic": {
+          "n_nodes": 30,
+          "isolated_frac": 0.033,
+          "components": 2,
+          "avg_degree": 17.47
+        }
+      },
+      "t_repeat_full_s": 1.949
+    },
+    {
+      "query": "federated learning privacy",
+      "n_papers": 30,
+      "t_fetch_miss_s": 3.08,
+      "t_fetch_hit_s": 0.035,
+      "cache_speedup": 87.4,
+      "gost_complete_before_pct": 86.7,
+      "gost_complete_after_pct": 96.7,
+      "auto_k": 4,
+      "silhouette_auto_k": 0.1126,
+      "silhouette_curve": {
+        "2": 0.0862,
+        "3": 0.0765,
+        "4": 0.1126,
+        "5": 0.102,
+        "6": 0.0771,
+        "7": 0.0681,
+        "8": 0.0847
+      },
+      "t_cluster_s": 1.104,
+      "connectivity": {
+        "citation": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 1,
+          "avg_degree": 4.6
+        },
+        "citation_coupling": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 1,
+          "avg_degree": 22.67
+        },
+        "citation_coupling_semantic": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 1,
+          "avg_degree": 23.27
+        }
+      },
+      "t_repeat_full_s": 2.041
+    },
+    {
+      "query": "recommender systems collaborative filtering",
+      "n_papers": 30,
+      "t_fetch_miss_s": 3.443,
+      "t_fetch_hit_s": 0.023,
+      "cache_speedup": 146.9,
+      "gost_complete_before_pct": 66.7,
+      "gost_complete_after_pct": 96.7,
+      "auto_k": 2,
+      "silhouette_auto_k": 0.1237,
+      "silhouette_curve": {
+        "2": 0.1237,
+        "3": 0.1101,
+        "4": 0.0896,
+        "5": 0.0849,
+        "6": 0.1027,
+        "7": 0.0791,
+        "8": 0.0594
+      },
+      "t_cluster_s": 1.167,
+      "connectivity": {
+        "citation": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 1,
+          "avg_degree": 6.93
+        },
+        "citation_coupling": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 1,
+          "avg_degree": 19.2
+        },
+        "citation_coupling_semantic": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 1,
+          "avg_degree": 19.93
+        }
+      },
+      "t_repeat_full_s": 2.021
+    },
+    {
+      "query": "time series forecasting deep learning",
+      "n_papers": 30,
+      "t_fetch_miss_s": 4.593,
+      "t_fetch_hit_s": 0.023,
+      "cache_speedup": 203.4,
+      "gost_complete_before_pct": 86.7,
+      "gost_complete_after_pct": 100.0,
+      "auto_k": 5,
+      "silhouette_auto_k": 0.0966,
+      "silhouette_curve": {
+        "2": 0.0582,
+        "3": 0.0735,
+        "4": 0.0859,
+        "5": 0.0966,
+        "6": 0.0642,
+        "7": 0.0869,
+        "8": 0.0764
+      },
+      "t_cluster_s": 1.113,
+      "connectivity": {
+        "citation": {
+          "n_nodes": 30,
+          "isolated_frac": 0.333,
+          "components": 12,
+          "avg_degree": 2.0
+        },
+        "citation_coupling": {
+          "n_nodes": 30,
+          "isolated_frac": 0.067,
+          "components": 3,
+          "avg_degree": 7.33
+        },
+        "citation_coupling_semantic": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 1,
+          "avg_degree": 10.67
+        }
+      },
+      "t_repeat_full_s": 1.826
+    },
+    {
+      "query": "explainable artificial intelligence",
+      "n_papers": 30,
+      "t_fetch_miss_s": 5.91,
+      "t_fetch_hit_s": 0.026,
+      "cache_speedup": 225.8,
+      "gost_complete_before_pct": 86.7,
+      "gost_complete_after_pct": 90.0,
+      "auto_k": 4,
+      "silhouette_auto_k": 0.0942,
+      "silhouette_curve": {
+        "2": 0.0728,
+        "3": 0.0806,
+        "4": 0.0942,
+        "5": 0.068,
+        "6": 0.0593,
+        "7": 0.0809,
+        "8": 0.083
+      },
+      "t_cluster_s": 1.109,
+      "connectivity": {
+        "citation": {
+          "n_nodes": 30,
+          "isolated_frac": 0.1,
+          "components": 4,
+          "avg_degree": 5.13
+        },
+        "citation_coupling": {
+          "n_nodes": 30,
+          "isolated_frac": 0.033,
+          "components": 2,
+          "avg_degree": 17.07
+        },
+        "citation_coupling_semantic": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 1,
+          "avg_degree": 19.47
+        }
+      },
+      "t_repeat_full_s": 1.799
+    },
+    {
+      "query": "self-supervised representation learning",
+      "n_papers": 30,
+      "t_fetch_miss_s": 4.418,
+      "t_fetch_hit_s": 0.037,
+      "cache_speedup": 120.8,
+      "gost_complete_before_pct": 56.7,
+      "gost_complete_after_pct": 83.3,
+      "auto_k": 2,
+      "silhouette_auto_k": 0.1136,
+      "silhouette_curve": {
+        "2": 0.1136,
+        "3": 0.1079,
+        "4": 0.0502,
+        "5": 0.0771,
+        "6": 0.0544,
+        "7": 0.0661,
+        "8": 0.0648
+      },
+      "t_cluster_s": 1.141,
+      "connectivity": {
+        "citation": {
+          "n_nodes": 30,
+          "isolated_frac": 0.167,
+          "components": 6,
+          "avg_degree": 2.4
+        },
+        "citation_coupling": {
+          "n_nodes": 30,
+          "isolated_frac": 0.033,
+          "components": 2,
+          "avg_degree": 17.13
+        },
+        "citation_coupling_semantic": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 1,
+          "avg_degree": 18.2
+        }
+      },
+      "t_repeat_full_s": 1.842
+    },
+    {
+      "query": "anomaly detection cybersecurity",
+      "n_papers": 30,
+      "t_fetch_miss_s": 4.253,
+      "t_fetch_hit_s": 0.026,
+      "cache_speedup": 162.2,
+      "gost_complete_before_pct": 83.3,
+      "gost_complete_after_pct": 96.7,
+      "auto_k": 2,
+      "silhouette_auto_k": 0.0926,
+      "silhouette_curve": {
+        "2": 0.0926,
+        "3": 0.0467,
+        "4": 0.0506,
+        "5": 0.0375,
+        "6": 0.0507,
+        "7": 0.0348,
+        "8": 0.0301
+      },
+      "t_cluster_s": 1.137,
+      "connectivity": {
+        "citation": {
+          "n_nodes": 30,
+          "isolated_frac": 0.633,
+          "components": 22,
+          "avg_degree": 0.53
+        },
+        "citation_coupling": {
+          "n_nodes": 30,
+          "isolated_frac": 0.2,
+          "components": 8,
+          "avg_degree": 2.27
+        },
+        "citation_coupling_semantic": {
+          "n_nodes": 30,
+          "isolated_frac": 0.0,
+          "components": 1,
+          "avg_degree": 6.8
+        }
+      },
+      "t_repeat_full_s": 2.017
+    },
+    {
+      "query": "bibliometric analysis scientometrics",
+      "n_papers": 30,
+      "t_fetch_miss_s": 2.867,
+      "t_fetch_hit_s": 0.034,
+      "cache_speedup": 84.2,
+      "gost_complete_before_pct": 93.3,
+      "gost_complete_after_pct": 96.7,
+      "auto_k": 3,
+      "silhouette_auto_k": 0.0917,
+      "silhouette_curve": {
+        "2": 0.0712,
+        "3": 0.0917,
+        "4": 0.0538,
+        "5": 0.0639,
+        "6": 0.0674,
+        "7": 0.0824,
+        "8": 0.0668
+      },
+      "t_cluster_s": 1.15,
+      "connectivity": {
+        "citation": {
+          "n_nodes": 30,
+          "isolated_frac": 0.633,
+          "components": 22,
+          "avg_degree": 0.67
+        },
+        "citation_coupling": {
+          "n_nodes": 30,
+          "isolated_frac": 0.367,
+          "components": 12,
+          "avg_degree": 5.0
+        },
+        "citation_coupling_semantic": {
+          "n_nodes": 30,
+          "isolated_frac": 0.067,
+          "components": 3,
+          "avg_degree": 8.33
+        }
+      },
+      "t_repeat_full_s": 1.969
+    }
+  ]
+}

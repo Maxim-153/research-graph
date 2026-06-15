@@ -1,0 +1,19 @@
+# Игнорируем только виртуальное окружение
+# Бэкенд (Python)
+backend/venv/
+**/__pycache__/
+*.pyc
+backend/api_cache/
+
+# Фронтенд (Node.js)
+frontend/node_modules/
+frontend/dist/
+.env
+backend/.env
+frontend/.env
+
+# Системные файлы и IDE
+.vscode/
+.idea/
+.DS_Store
+desktop.ini
